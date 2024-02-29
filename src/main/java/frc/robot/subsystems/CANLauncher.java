@@ -19,6 +19,9 @@ public class CANLauncher extends SubsystemBase {
     m_launchWheel = new WPI_TalonSRX(kLauncherID);
     m_feedWheel = new WPI_TalonSRX(kFeederID);
 
+    m_launchWheel.setInverted(true);
+    m_feedWheel.setInverted(true);
+
     // m_launchWheel.setSmartCurrentLimit(kLauncherCurrentLimit);
     // m_feedWheel.setSmartCurrentLimit(kFeedCurrentLimit);
   }

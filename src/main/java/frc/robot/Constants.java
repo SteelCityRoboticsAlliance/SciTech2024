@@ -32,13 +32,13 @@ public final class Constants {
   }
 
   public static class ClimberConstants{
-    public static final int kClimberID = 5;
+    public static final int kClimberID = 7;
     public static final double kClimberSpeed = .5;
   }
 
   public static class LauncherConstants {
     // PWM ports/CAN IDs for motor controllers
-    public static final int kFeederID = 7;
+    public static final int kFeederID = 5;
     public static final int kLauncherID = 6;
 
     // Current limit for launcher and feed wheels
